@@ -50,7 +50,7 @@ fun FirstScreen(navigationToSecondScreen: (String, Int) -> Unit) {
             })
 
         Button(onClick = {
-            navigationToSecondScreen(name.value,age.value)
+            navigationToSecondScreen(name.value, age.value)
         }) {
             Text("Go to Second Screen")
         }
